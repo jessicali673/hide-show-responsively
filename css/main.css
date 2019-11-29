@@ -27,51 +27,53 @@ img {
 
 @media only screen and (min-width: 25em) {
 
-.dino:nth-child(2), .dino:last-child {
-display: block;
-}
+  .dino:nth-child(2), .dino:last-child {
+    display: block;
+  }
 
-.dino-wrap {
-  display: flex;
-  flex-wrap: wrap;
-}
+  .dino-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.dino {
-  width: 50%;
-}
+  .dino {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 38em) {
 
-.dino:first-child {
-  display: none;
-}
-.dino-wrap {
-  display: flex;
-}
+  .dino:first-child {
+    display: none;
+  }
 
-.dino {
-  width: 33.333%;
-}
+  .dino-wrap {
+    display: flex;
+  }
+
+  .dino {
+    width: 33.333%;
+
+  }
 }
 
 @media only screen and (min-width: 60em) {
 
-.dino:first-child {
-  display: block;
-}
+  .dino:first-child {
+    display: block;
+  }
 
-.dino-wrap {
-  display: flex;
-}
+  .dino-wrap {
+    display: flex;
+  }
 
-.dino {
-  width: 25%;
-}
+  .dino {
+    width: 25%;
+  }
 }
 
 @media only screen and (min-width: 90em) {
-.dino-wrap {
+  .dino-wrap {
     display: flex;
   }
 }
